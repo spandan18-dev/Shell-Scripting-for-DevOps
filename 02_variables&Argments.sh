@@ -21,3 +21,11 @@ echo "You enter $something"
 # Or
 read -p "Enter something 2 :" something2
 echo "u enter $something2"
+
+# Arguments :
+
+<< Comments
+      ~$ $0 $1 $2 $3 ($n = Arguments)
+Comments
+
+echo "Arguments $0 $1"
